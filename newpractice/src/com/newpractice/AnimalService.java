@@ -7,7 +7,7 @@ public class AnimalService {
 	
 	public Animal[] readdomesticanimal() {
 		Scanner s=new Scanner (System.in);
-		System.out.println("enter the number of animals");
+		System.out.println("enter the number of animals you want");
 		int n=s.nextInt();
 		Animal[]a=new Animal[n];
 		for(int i=0;i<n;i++) {
