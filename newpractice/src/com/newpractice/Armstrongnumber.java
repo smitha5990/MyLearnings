@@ -8,7 +8,7 @@ public class Armstrongnumber {
 		
 		Scanner s=new Scanner(System.in);
 		
-		System.out.println("enter a number");
+		System.out.println("enter a number to see if its an amstrong number");
 		int n=s.nextInt();
 		int m=n;
 		int a;
