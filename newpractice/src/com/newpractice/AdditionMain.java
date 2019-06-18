@@ -7,7 +7,7 @@ public class AdditionMain {
 	public static void main(String[]args) {
 		
 		Scanner s=new Scanner(System.in);
-		System.out.println("enter 2 numbers");
+		System.out.println("enter 2 numbers as input");
 		int a=s.nextInt();
 		int b=s.nextInt();
 		AdditionService ad=new AdditionService();
